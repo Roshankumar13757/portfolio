@@ -15,24 +15,35 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      degree: "Undergraduate Degree (B.Tech in Computer Science)",
+      school: "DIT University, Dehradun",
       mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      year: "2021-2025",
+      achievements: ["GPA: 8.34", "Major: Full Stack and DevOps"],
+      skills: ["Data Structures", "Algorithms", "Web Development", "Cloud Computing","DevOps"],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+       "Gained comprehensive knowledge in computer science fundamentals, software engineering principles, and practical experience through projects and internships, preparing for a successful career in technology.",
     },
+    
     {
       degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      school: "Sainik School Nalanda",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      year: "2018-2019",
+      achievements: ["Percentage: 70.6%", "Subject: Science","Board: CBSE"],
+      skills: ["Physics", "Chemistry", "Biology", "Mathematics","Maths"],
       description:
         "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+    },
+    {
+      degree: "Secondary School Certificate (SSC)",
+      school: "Sainik School Nalanda",
+      mascot: "📘",
+      year: "2016-2017",
+      achievements: ["GPA: 9.8", "Subject: Science","Board: CBSE"],
+      skills: ["Mathematics","Science","Social Studies","English","Hindi"],
+      description:
+        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
     },
   ];
 
